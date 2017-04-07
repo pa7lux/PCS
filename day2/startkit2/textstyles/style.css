@@ -1,0 +1,22 @@
+.first {
+  /*цвет текста*/
+  color: navy;
+  /*выравнивание текста*/
+  text-align: center;
+  /*подчеркивание*/
+  text-decoration: underline;
+  /*преобразование регистра*/
+  text-transform: uppercase;
+  /*интерлиньяж*/
+  line-height: 60px;
+  /*межбуквенное расстояние*/
+  letter-spacing: 50px;
+}
+.second {
+  /*семейство шрифтов, ищет в системе по очереди описанные шрифты*/
+  font-family: Arial, Helvetica, sans-serif;
+  /*размер шрифта*/
+  font-size: 40px;
+  /*толщина*/
+  font-weight: bold;
+}

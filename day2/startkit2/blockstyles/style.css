@@ -1,0 +1,38 @@
+.first {
+  /*ширина блока*/
+  width: 600px;
+  /*высота блока*/
+  height: 300px;
+  /*граница, толщина сплошная линия, цвет*/
+  border: 2px solid red;
+  /*цвет фона*/
+  background-color: lightblue;
+}
+
+.second {
+  height: 200px;
+  /*фонокартинка*/
+  background-image: url(pattern.gif);
+  /*фонокартинку не повторять по x и y*/
+  background-repeat: no-repeat;
+}
+
+.third {
+  height: 500px;
+  background-image: url(Batman.jpg);
+  /*пытаться занять картинкой весь блок, можно также указывать в пикселях*/
+  background-size: cover;
+  /*выравнивание фона по x и y, можно вводить в пикселях*/
+  background-position: center top;
+  /*сделать фон зафиксированным, чтобы не прокручивался вместе с блоком*/
+  background-attachment: fixed;
+}
+
+.fourth {
+  height: 700px;
+  background-image: url(superman.png);
+  /*обязательно вместить изображение в блок*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

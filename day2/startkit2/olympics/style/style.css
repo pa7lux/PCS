@@ -1,0 +1,73 @@
+.page {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1200px;
+}
+
+.header {
+  height: 41px;
+}
+.header img {
+  height: 41px;
+}
+.bigPic {
+  height: 400px;
+  background-image: url(../img/Athens_1896_banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.mainAnounce {
+  height: 307px;
+  width: 307px;
+  background-color: rgba(255,255,255, .5);
+}
+
+.mainAnounce h1 {
+  text-align: center;
+  font-size: 43px;
+  font-weight: bold;
+  line-height: 55px;
+}
+.mainAnounce__image {
+  width: 306px;
+  height: 306px;
+  background-image: url(../img/olimpiets.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.line {
+  height: 2px;
+  background-color: black;
+}
+
+.quote p {
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+}
+
+#smallText {
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.programm h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.programm img {
+  width: 350px;
+}
+
+footer {
+  height: 59px;
+  background-color: black;
+  color: white;
+  line-height: 59px;
+}
+footer a {
+  color: white;
+}
