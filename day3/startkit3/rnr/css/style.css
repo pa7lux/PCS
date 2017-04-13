@@ -1,0 +1,108 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+h1, h2 {
+  font-family: 'Roboto Slab', serif;
+}
+.page {
+  width: 1024px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.rnr-header {
+  height: 88px;
+  background-color: #94557C;
+  font-size: 0;
+}
+.column {
+  width: 50%;
+  height: 88px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.column.two h1{
+  font-size: 24px;
+  color: white;
+  text-align: right;
+  line-height: 88px;
+  margin-right: 20px;
+}
+
+.column.one img {
+  margin-left: 20px;
+  margin-top: 6px;
+}
+
+.rnr-bigPic {
+  height: 575px;
+  background-image: url(../img/main.png);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding-top: 50px;
+  background-attachment: fixed;
+}
+.rnr-bigPic h2 {
+  width: 299px;
+  height: 78px;
+  background-color: rgba(148, 85, 124, .8);
+  color: white;
+  font-size: 64px;
+  text-align: center;
+  line-height: 78px;
+  margin-left: 20px;
+}
+
+.rnr-bigPic h2 span {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.columns {
+  width: 90%;
+  margin: 50px auto;
+  font-size: 0;
+}
+
+.col {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.col.one {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.col.one h2 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.col.one p {
+  margin: 15px 0;
+  letter-spacing: 1px;
+}
+
+.col.two {
+  background-image: url(../img/dance.png);
+  background-size: cover;
+  height: 600px;
+}
+footer {
+  height: 88px;
+  background-color: #94557C;
+}
+
+footer p {
+  line-height: 88px;
+  margin-left: 20px;
+  color: white;
+}
+footer p a {
+  color: white;
+  text-decoration: none;
+}
