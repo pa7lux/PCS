@@ -1,0 +1,111 @@
+@import url(reset.css);
+@font-face {
+  src: url(../font/Boomboom.ttf);
+  font-family: 'BoomBoom';
+}
+.page {
+  font-family: Helvetica, Arial, sans-serif;
+}
+h1, h2 {
+  font-family: 'BoomBoom';
+}
+.myHeader, .myFooter {
+  height: 84px;
+  background-color: #141C5E;
+}
+.myHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 2.5%;
+}
+.myHeader img {
+  width: 184px;
+}
+.mainMenu a {
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.mainMenu a.active {
+  text-decoration: underline;
+}
+.bigPic {
+  height: 458px;
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  background-attachment: fixed;
+}
+.bigPic h1 {
+  color: white;
+  font-size: 144px;
+  margin: auto;
+}
+
+.content {
+  width: 95%;
+  margin: auto;
+}
+.content h2 {
+  font-size: 48px;
+  line-height: 118px;
+}
+
+.nuts-container {
+  height: 391px;
+  background-color: #B84655;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nuts-item {
+  width: 275px;
+  height: 275px;
+  background-size: cover;
+}
+.nuts-item.one {
+  background-image: url(../img/oreh1.jpg);
+  order: 2;
+}
+.nuts-item.two {
+  background-image: url(../img/oreh2.jpg);
+  order: 1;
+}
+.nuts-item.three {
+  background-image: url(../img/oreh3.jpg);
+  order:3;
+}
+.author-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.author-item.photo {
+  width: 287px;
+  height: 287px;
+  background-image: url(../img/zzzarzar.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+.author-item.text {
+  width: 700px;
+}
+.author-item.text h3 {
+  font-weight: bold;
+  line-height: 50px;
+  font-size: 26px;
+}
+.myFooter {
+  box-sizing: border-box;
+  padding-left: 2.5%;
+}
+.myFooter p {
+  color: white;
+  line-height: 84px;
+}

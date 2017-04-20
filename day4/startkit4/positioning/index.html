@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Positioning</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    div {
+      height: 600px;
+      border: 2px solid violet;
+    }
+    .inside {
+      width: 100px;
+      height: 100px;
+    }
+    .static .inside {
+      background-color: green;
+      position: static;
+    }
+    .relative .inside {
+      background-color: red;
+      position: relative;
+      top: 20px;
+      left: 50px;
+    }
+    .absolute {
+      position: relative;
+    }
+    .absolute .inside {
+        background-color: blue;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    .fixed .inside {
+      background-color: black;
+      position: fixed;
+      bottom: 40px;
+      left: 500px;
+    }
+  </style>
+</head>
+<body>
+  <div class='static'>
+    <div class="inside"></div>
+  </div>
+  <div class='relative'>
+    <div class="inside"></div>
+    <p>hello</p>
+  </div>
+  <div class='absolute'>
+    <div class="inside"></div>
+    <p>hello</p>
+  </div>
+  <div class='fixed'>
+    <div class="inside"></div>
+  </div>
+</body>
+</html>
