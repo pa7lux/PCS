@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PseudoClasses</title>
+  <style>
+    /* LoVeHAte
+    :linked - когда ссылка имеет url
+    :visited - когда ты посетил ссылку
+    :hover - когда ты навел мышь на ссылку
+    :active - когда ты нажал на ссылку
+    */
+    /*a:link {
+      color: red;
+    }
+    a:visited {
+      color: green;
+    }
+    a:hover {
+      font-size: 30px;
+      color: purple;
+    }
+    a:active {
+      color: pink;
+    }*/
+    .president {
+      width: 200px;
+      height: 200px;
+      background-image: url(http://politrussia.com/upload/iblock/780/780e6e0dc8d7c11ea955591986f0b19c.jpg);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+      transition: background-image 5s ease-in .2s;
+      border: 5px solid red;
+    }
+    .president:hover {
+      background-image: url(http://nk-tv.net/wp-content/uploads/2014/01/Medvedev.jpg);
+      border: 5px solid black;
+    }
+    .president:active {
+      background-image: url(http://img-fotki.yandex.ru/get/6616/137106206.1fa/0_a0052_57dde4f7_XXL.jpg);
+    }
+    .button {
+      display: block;
+      width: 150px;
+      height: 50px;
+      background-image: linear-gradient(to bottom right, navy, orange);
+      border-radius: 5px;
+      color: white;
+      text-transform: uppercase;
+      font-family: sans-serif;
+      text-align: center;
+      text-decoration: none;
+      font-size: 14px;
+      box-sizing: border-box;
+      padding: 18px 0;
+
+    }
+    .button:hover {
+      background-image: linear-gradient(to bottom left, navy, orange);
+    }
+    p::selection {
+      color:red;
+      background-color: black;
+    }
+    .parent p:first-child {
+      color: red;
+    }
+    .parent p:last-child {
+      color: blue;
+    }
+    .parent p:nth-child(2) {
+      color: orange;
+    }
+
+    .parent2 p:first-of-type {
+      color: orange;
+    }
+    .parent2 p:last-of-type {
+      color: green;
+    }
+    .parent2 p:nth-of-type(2) {
+      color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div class="links">
+    <a href="#">Привет</a>
+  </div>
+  <div class="president">
+
+  </div>
+  <a href="#" class="button">Купи меня</a>
+  <p>Привет!!!!</p>
+  <div class="parent">
+    <p>Первый</p>
+    <p>Второй</p>
+    <p>Третий</p>
+  </div>
+  <div class="parent2">
+    <p>Первый</p>
+    <p>Второй</p>
+    <p>Третий</p>
+  </div>
+</body>
+</html>

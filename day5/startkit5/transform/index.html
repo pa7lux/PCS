@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Transform</title>
+  <style>
+    .translate {
+      width: 300px;
+      height: 300px;
+      background-color: blue;
+      transition: all linear 1s;
+    }
+    .translate:hover {
+      transform: translate(30px,20px);
+    }
+    .scale {
+      width: 300px;
+      height: 300px;
+      background-color: red;
+      transition: all linear 1s;
+      margin: auto;
+    }
+    .scale:active {
+      transform: scale(.8);
+    }
+    .rotate {
+      width: 300px;
+      height: 300px;
+      background-color: green;
+      transition: all linear 1s;
+      margin: auto;
+    }
+    .rotate:hover {
+      transform: rotate(-360deg);
+    }
+    .skew {
+      width: 300px;
+      height: 300px;
+      background-color: orange;
+      transition: all linear 1s;
+      margin: auto;
+    }
+    .skew:hover {
+      transform: skewX(30deg);
+    }
+    .skew:active {
+      transform: skewY(30deg);
+    }
+    .perspective {
+      width: 300px;
+      height: 300px;
+      background-color: navy;
+
+    }
+    .perspective:hover {
+      transform:scale3d(1.2,1.5,2);
+    }
+  </style>
+</head>
+<body>
+  <div class="translate"></div>
+  <div class="scale"></div>
+  <div class="rotate"></div>
+  <div class="skew"></div>
+  <div class="perspective"></div>
+</body>
+</html>

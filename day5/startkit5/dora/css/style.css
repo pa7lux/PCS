@@ -1,0 +1,64 @@
+@import url(reset.css);
+
+.page {
+  min-height: 1000px;
+  background-image: linear-gradient(to bottom, #FE2B30 0%, #DB2529 10%, #851114 25%, pink 50%, #FCD300 75%, black 100%);
+}
+
+.dora {
+  width: 93px;
+  height: 116px;
+  background-image: url(../img/dora.png);
+  background-size: cover;
+  background-position: center top;
+  position: fixed;
+  left: 50%;
+  margin-left: -46.5px;
+  top: 200px;
+  z-index: 2;
+}
+
+section {
+  height: 400px;
+  position: relative;
+}
+.logo img {
+  width: 267px;
+  position: relative;
+  top: 35px;
+  left:20px;
+}
+
+.video video {
+  width: 358px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.monster1 img {
+  width: 200px;
+  position: relative;
+  top: -150px;
+  left: 20px;
+}
+
+.iframe iframe {
+  width: 322px;
+  height: 400px;
+  display: block;
+  margin: auto;
+  z-index: 1;
+}
+.monster2 .first {
+  width: 232px;
+  position: absolute;
+  bottom:0;
+  right: 0;
+}
+
+.monster2 .second {
+  width: 314px;
+  position: absolute;
+  bottom:0;
+  left: 0;
+}
