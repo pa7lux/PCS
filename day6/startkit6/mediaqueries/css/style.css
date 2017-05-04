@@ -1,0 +1,25 @@
+@import url(reset.css);
+
+.myblock {
+  width: 20vw;
+  height: 40vh;
+  background-image: linear-gradient(to bottom, yellow, violet);
+}
+
+.myAnotherblock {
+  width: 20vw;
+  height: 40vh;
+  background-color: red;
+  display: none;
+}
+
+@media all and (max-width: 720px) {
+  .myblock {
+    background-image: linear-gradient(to left, black, orange);
+    width: 100vw;
+    display: none;
+  }
+  .myAnotherblock {
+    display: block;
+  }
+}

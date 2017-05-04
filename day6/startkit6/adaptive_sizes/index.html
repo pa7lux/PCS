@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Responsive sizes</title>
+  <style>
+    html {
+      font-size: 60px;
+    }
+    .outer {
+      width: 500px;
+      height: 500px;
+      background-color: black;
+    }
+    .inner {
+      width: 20%;
+      height: 30%;
+      background-color: red;
+    }
+    .vw {
+      background-color: yellow;
+      height: 100px;
+      width: 20vw;
+    }
+    .vh {
+      background-image: linear-gradient(to bottom right, orange, navy);
+      width: 50vh;
+      height: 20vw;
+      /*vmin vmax*/
+    }
+
+    .outer_text {
+      font-size: 30px;
+    }
+    .inner_text {
+      font-size: .8em;
+    }
+    .rem_outer_text {
+      font-size: 30px;
+    }
+    .rem_inner_text {
+      font-size: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Blocks -->
+  <div class="outer">
+    <div class="inner"></div>
+  </div>
+  <div class="vw"></div>
+  <div class="vh"></div>
+
+  <!-- TEXT-->
+  <div class="outer_text">
+    <div class="inner_text">Hello I'm EM-sized</div>
+  </div>
+  <div class="rem_outer_text">
+    <div class="rem_inner_text">Hello I'm REM-sized</div>
+  </div>
+</body>
+</html>
