@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Свяжитесь со мной, ну пожааалуйста...</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page">
+    <section class="myForm">
+      <h1>Свяжитесь со мной</h1>
+      <form>
+        <fieldset class="personalInfo">
+          <label for="name">Ваше имя:</label>
+          <input type="text" name='name' value='Иван Иванов'>
+          <label for="email">Ваш e-mail:</label>
+          <input type="email" name='email' value='mail@example.com'>
+          <label for="phone">Ваш номер телефона:</label>
+          <input type="tel" name='phone' value='+7(999)999-99-99'>
+        </fieldset>
+        <fieldset class="AreYouShure">
+          <label for="questionType">Тип вопроса:</label>
+          <select name="questionType" id="">
+            <option value="">First</option>
+            <option value="">Second</option>
+            <option value="">Third</option>
+          </select>
+          <label for="thinkwell" id='forthinkwell'>Хорошо подумал?</label>
+          <input type="radio" name='thinkwell' checked="true"> <label for="thinkwell">Да</label>
+          <input type="radio" name='thinkwell'> <label for="thinkwell">Нет</label>
+        </fieldset>
+        <fieldset class='message'>
+          <label for="message">Ваше сообщение:</label>
+          <textarea name="message">Здесь будет ваш самый идиотский вопрос к моей персоне</textarea>
+          <input type="checkbox" name="agree" checked="true"><label for="agree">Согласен на все</label>
+          <input type="submit">
+        </fieldset>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
